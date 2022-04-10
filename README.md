@@ -187,7 +187,7 @@ Once you access the localstack container terminal, you will need to configure: a
 ```
 $ aws configure
 AWS Access Key ID [None]: anything
-AWS Secret Access Key [None]: anything/K7MDENG/bPxRfiCYEXAMPLEKEY
+AWS Secret Access Key [None]: anything
 Default region name [None]: us-east-1
 Default output format [None]: json
 ```
@@ -213,4 +213,4 @@ aws dynamodb --endpoint-url=http://localhost:4566 create-table \
         ReadCapacityUnits=10,WriteCapacityUnits=5
 ```
 
-After configuration, we can run our application and check our CQRS implementation with Aws localstack
+After configuration, we can run our application and check our CQRS implementation with Aws localstack.
