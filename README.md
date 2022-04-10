@@ -1,4 +1,4 @@
-# CRQS Solution - Implementing SQS, DynamoDB and MongoDB with Spring and Localstack
+# CQRS Solution - Implementing SQS, DynamoDB and MongoDB with Spring and Localstack
 
 **CQRS** stands for Command and Query Responsibility Segregation, a pattern that separates read and update operations for a data store. Implementing CQRS in your application can maximize its performance, scalability, and security. The flexibility created by migrating to CQRS allows a system to better evolve over time and prevents update commands from causing merge conflicts at the domain level.
 
